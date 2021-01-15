@@ -30,7 +30,7 @@ public class StrangeList {
           b[j]++;
         }
       }
-      int miniIndex = 0;
+      int miniIndex =0;
       int minValue = 100000000;
       for (int j = 0; j < n; j++) {
         if (b[j] < minValue) {
